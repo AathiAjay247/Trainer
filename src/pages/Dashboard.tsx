@@ -100,7 +100,7 @@ const Dashboard: React.FC = () => {
                 <>
                     {renderAdminStats()}
                     <Box sx={{ mt: 4 }}>
-                        <Typography variant="h6" gutterBottom>System Stats</Typography>
+                        <Typography variant="h6" gutterBottom>Trainer System Stats</Typography>
                         {/* Admin also sees aggregated student/instructor stats could go here, but sticking to basics first */}
                     </Box>
                 </>
